@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:200');
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%
+}
+
+.fa-2x {
+  font-size: 2em
+}
+
+.fa-3x {
+  font-size: 3em
+}
+
+.fa-4x {
+  font-size: 4em
+}
+
+.fa-5x {
+  font-size: 5em
+}
+
+body {
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+strong,
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+.fa-calendar {
+  &::before {
+    content: "\f073";
+  }
+}
