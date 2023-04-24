@@ -25,7 +25,7 @@
     "jquery": "^3.3.1",
     "mini-css-extract-plugin": "^0.4.0",
     "node-sass": "^4.8.3",
-    "npm": "^5.8.0",
+    "npm": "^9.6.5",
     "popper.js": "^1.14.3",
     "precss": "^3.1.2",
     "prop-types": "^15.6.1",
